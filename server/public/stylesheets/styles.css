@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  background-color: salmon;
+}
+
+p {
+  background-color: lightgray;
+}
+.row {
+  background-color: lightgreen;
+}
+
+.lead {
+  background-color: salmon;
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: salmon;
+}
+
+.right {
+  background-color: red;
+}
+
+.mid-right, .middle {
+  background-color: orange;
+}
+
+.mid-left {
+  background-color: lightyellow;
+}
+
+.left {
+  background-color: lightblue;
+}

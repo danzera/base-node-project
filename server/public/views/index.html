@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Base Node Project</title>
-  </head>
-  <body>
-    <h1>Just Your "Basic" Node Project</h1>
-    <p>A "simple" Node project structure that implements Grun and Bootstrap, amongst a few other things...</p>
-    <p>Grunt should be grunting...</p>
-    <p>Bootstrap should be strapping...</p>
-    <link rel="stylesheet" href="../vendors/bootstrap.css">
-  </body>
+
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Just Your "Basic" Node Project</h1>
+      </div>
+    </div>
+  </div>
+  <!-- 'lead' class makes a paragraph tag a slightly larger font with a lower
+       font-weight. It’s good for introductory text and callouts preceding major
+       content without using up Heading tags. -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="lead-div col-md-4">
+        <p class="lead">Lead Paragraph 1</p>
+        <p>A "simple" Node project structure that implements Grunt and Bootstrap, amongst a few other things...</p></div>
+      <div class="lead-div col-md-4">
+        <p class="lead">Lead Paragraph 2</p>
+        <p>Grunt should be grunting...</p></div>
+      <div class="lead-div col-md-4">
+        <p class="lead">Lead Paragraph 3</p>
+        <p>Bootstrap should be strapping...</p></div>
+    </div>
+  </div>
+  <!-- REVERSE COLUMN COLLAPSE ORDER -->
+  <!-- Desktop: [ 2nd col ] [ 1st col ]
+       Mobile: [ 2nd col ]
+               [ 1st col ] -->
+  <div class="row">
+    <div class="right col-md-4 col-md-push-8">right</div>
+    <div class="middle col-md-4">middle</div>
+    <div class="left col-md-4 col-md-pull-8">left</div>
+  </div>
+<div class="row">
+    <div class="right col-md-3 col-md-push-9">last col</div>
+    <div class="mid-right col-md-3 col-md-push-3">second-to-last col</div>
+    <div class="mid-left col-md-3 col-md-pull-3">second col</div>
+    <div class="left col-md-3 col-md-pull-9">first col</div>
+</div>
+  <link rel="stylesheet" href="../vendors/bootstrap.css">
+</body>
+
 </html>
