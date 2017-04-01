@@ -1,36 +1,11 @@
-h1 {
-  text-align: center;
-  background-color: salmon;
+/* any custom CSS we want for our project */
+
+body {
+  /* !important used to override Bootstrap's standard color choice */
+  background-color: lightgreen !important;
 }
 
-p {
-  background-color: lightgray;
-}
-.row {
-  background-color: lightgreen;
-}
-
-.lead {
-  background-color: salmon;
-  text-align: center;
-}
-
-.container-fluid {
-  background-color: salmon;
-}
-
-.right {
-  background-color: red;
-}
-
-.mid-right, .middle {
-  background-color: orange;
-}
-
-.mid-left {
-  background-color: lightyellow;
-}
-
-.left {
-  background-color: lightblue;
+.jumbotron {
+  /* !important used to override Bootstrap's standard color choice */
+  background-color: salmon !important;
 }
